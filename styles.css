@@ -1,0 +1,88 @@
+
+body {
+    background-color:rgb(240, 233, 232);
+    
+  }
+.contain{
+    padding: 50px;
+    width: 40%;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 60%;
+    margin: 100px;
+    color:rgb(12, 12, 12);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 7px 6px rgb(159, 155, 155);
+  }
+   
+  
+  
+  input[type=text]{
+      width: 75%;
+      padding: 13px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: rgb(0, 0, 0);
+      background-color:  rgb(232, 232, 232);
+      cursor: pointer;
+      border: none;
+    }
+    input[type=text]:hover{
+    background-color: aliceblue;
+    }
+  
+    button {
+      width: 20%;
+      padding: 13px 0px;
+      background-color: rgb(232, 232, 232);
+      border-radius: 5px;
+      color:black;
+      cursor: pointer;
+      border: none; 
+      margin-right: 19px;
+    }
+    
+    button:hover {
+      background-color: rgb(246, 246, 246); 
+    }
+  
+   h3{
+     font-size: 12px;
+  
+   }
+
+.social{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social a{
+    text-decoration: none;
+    padding: 23px;
+    background-color:rgb(232, 232, 232);
+    margin: 13px;
+    border-radius: 50%;
+    max-width: fit-content;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.social a i{
+    font-size: 2em;
+    color: rgb(45, 44, 44);
+    opacity:0.9;
+}
+
+pre{
+    text-align: center;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+
+#app{
+  font-size: 20px;
+}
